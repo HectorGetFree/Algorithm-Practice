@@ -22,7 +22,7 @@ public class S_1 {
         }
         counter = 0;
         p = head;
-        while (counter < mid) {
+        while (counter < mid - 1) {
             counter++;
             p = p.next;
         }
